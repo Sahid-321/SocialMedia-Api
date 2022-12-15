@@ -14,7 +14,7 @@ const port = process.env.PORT || 8000;
 dotenv.config();
 
 mongoose.connect(
-  `mongodb+srv://user:sahidjamal@ecommerce.qxk5j1r.mongodb.net/?retryWrites=true&w=majority`,
+  `mongodb+srv://user:sahid@socialmediaclone.qywc4fz.mongodb.net/?retryWrites=true&w=majority`,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to MongoDB");
